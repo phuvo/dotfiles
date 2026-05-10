@@ -1,7 +1,8 @@
 # Dotfiles
 
-Personal dotfiles, currently only Fish.
+Personal dotfiles.
 
 ```sh
-ln -s ./fish/config.fish ~/.config/fish/config.fish
+ln -s ~/Projects/dotfiles/fish/config.fish ~/.config/fish/config.fish
+ln -s ~/Projects/dotfiles/bat/config ~/.config/bat/config
 ```
