@@ -1,6 +1,7 @@
 set -g fish_greeting
 
 set -gx HOMEBREW_NO_ENV_HINTS 1
+set -q CODEARTIFACT_AUTH_TOKEN; or set -gx CODEARTIFACT_AUTH_TOKEN ''
 
 eval (/opt/homebrew/bin/brew shellenv)
 
