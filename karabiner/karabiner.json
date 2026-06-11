@@ -86,7 +86,10 @@
                                         "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from": { "key_code": "home" },
+                                "from": {
+                                    "key_code": "home",
+                                    "modifiers": { "optional": ["shift"] }
+                                },
                                 "to": [
                                     {
                                         "key_code": "left_arrow",
@@ -104,7 +107,10 @@
                                         "type": "frontmost_application_if"
                                     }
                                 ],
-                                "from": { "key_code": "end" },
+                                "from": {
+                                    "key_code": "end",
+                                    "modifiers": { "optional": ["shift"] }
+                                },
                                 "to": [
                                     {
                                         "key_code": "right_arrow",
