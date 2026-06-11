@@ -1,0 +1,15 @@
+font-size = 16
+
+window-width = 120
+window-height = 40
+
+window-padding-x = 12
+window-padding-y = 4
+
+background-opacity = 0.95
+background-blur = 16
+
+tab-inherit-working-directory = false
+window-inherit-working-directory = false
+
+macos-option-as-alt = true
