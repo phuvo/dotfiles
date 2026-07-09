@@ -256,7 +256,7 @@
                         ]
                     },
                     {
-                        "description": "Cmd + Y ⇒ Cmd + Shift + Z",
+                        "description": "Cmd-Y ⇒ Cmd-Shift-Z",
                         "manipulators": [
                             {
                                 "from": {
@@ -266,7 +266,7 @@
                                 "to": [
                                     {
                                         "key_code": "slash",
-                                        "modifiers": ["left_command", "left_shift"]
+                                        "modifiers": ["right_command", "right_shift"]
                                     }
                                 ],
                                 "type": "basic"
